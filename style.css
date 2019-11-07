@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(213, 196, 228);
   width: 1000px;
   margin: 10px auto;
   text-align: center;
@@ -8,10 +8,22 @@ body {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 60px;
   text-align: center;
   height: 75px;
+  font-style: italic;
+  color: rgb(22, 122, 253);
+  font-family: fantasy
 }
+
+/* button {
+  border-radius: 70%;
+  height:200px;
+  font-size: 50px;
+  border: 5px solid yellow;
+  background-image: radial-gradient(rgb(120, 226, 120),green);
+} */
+
 
 span{
   font-size: 75px;
@@ -21,7 +33,7 @@ span{
 div[id^="row-"] div {
   width: 200px;
   height: 200px;
-  border: 1px solid red;
+  border: 2px solid rgb(68, 9, 145);
   float: left;
 
 }
@@ -44,13 +56,13 @@ div[id="row-3"] div{
 
 div[id^="row-"] {
   clear: float;
-  width: 608px;
+  width: 610px;
   box-sizing: border-box;
   overflow: hidden;
 }
 
 div.board {
-  width: 608px;
+  width: 610px;
   overflow: hidden;
   margin: 0 auto;
 }
